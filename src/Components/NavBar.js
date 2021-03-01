@@ -5,9 +5,10 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div className="NavBar">
-      <img src={avatar} alt="" />
-
       <nav className="nav">
+        <div className="profile">
+          <img src={avatar} alt="" />
+        </div>
         <ul className="nav-items">
           <li className="nav-item">
             <NavLink to="/" exact activeClassName="active">
@@ -30,10 +31,10 @@ function NavBar() {
             </NavLink>
           </li>
         </ul>
+        <footer className="footer">
+          <p>@2021 Francisco Machado Carreiro</p>
+        </footer>
       </nav>
-      <footer className="footer">
-        <p>@2021 Francisco Machado Carreiro</p>
-      </footer>
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.NavBar {
+  height: 100vh;
+  .nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .profile{
+width: 100%;
+text-align: center;
+margin-top: 1rem;
+img{
+    width: 60%;
+    border-radius: 100%;
+    border: 6px solid #4e2e2e;
+}
+    }
+  }
+}
