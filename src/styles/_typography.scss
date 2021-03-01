@@ -1,0 +1,19 @@
+.HomePage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.here-text {
+  color: white;
+  text-align: center;
+  font-size: 3.6rem;
+  span {
+    color: #ff0303;
+  }
+}
+
+.h-sub-text {
+  text-align: center;
+}
