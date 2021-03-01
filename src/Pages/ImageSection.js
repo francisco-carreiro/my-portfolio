@@ -20,31 +20,24 @@ function ImageSection() {
           everything that's worthwhile in this life takes effort!
         </p>
         <div className="about-details">
-          <div className="name-details">
-            <p>Full name</p>
-            <p className="p-margin-left">: Francisco Machado Carreiro</p>
-          </div>
-          <div className="name-details">
+          <div className="left-section">
+            <p>Full Name</p>
             <p>Age</p>
-            <p className="p-margin-left">: 26</p>
-          </div>
-          <div className="name-details">
             <p>Languages</p>
-            <p className="p-margin-left">: Portuguese, English</p>
-          </div>
-          <div className="name-details">
             <p>Nationality</p>
-            <p className="p-margin-left">: Portuguese</p>
-          </div>
-          <div className="name-details">
             <p>Country</p>
-            <p className="p-margin-left">: Portugal</p>
-          </div>
-          <div className="name-details">
             <p>City</p>
-            <p className="p-margin-left">: Ponta Delgada (Azores)</p>
+          </div>
+          <div className="right-section">
+            <p>: Francisco Machado Carreiro</p>
+            <p>: 26</p>
+            <p>: Portuguese, English</p>
+            <p>: Portuguese</p>
+            <p>: Portugal</p>
+            <p>: Ponta Delgada (Azores)</p>
           </div>
         </div>
+        <button className="btn">Download my CV</button>
       </div>
     </div>
   );
