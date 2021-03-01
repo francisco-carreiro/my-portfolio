@@ -2,6 +2,7 @@
 @import "./styles/typography";
 @import "./styles/navbar";
 @import "./styles/title";
+@import "./styles/about";
 
 * {
   padding: 0;
@@ -15,6 +16,6 @@ body {
   font-size: 1.2rem;
 }
 
-span{
+span {
   color: red;
 }
