@@ -2,15 +2,15 @@
   .sidebar {
     width: 16%;
     height: 100vh;
-    background-color: #2b1919;
+    background-color: #1b1b1b;
     position: fixed;
-    border-right: 1px solid #4e2e2e;
+    border-right: 1px solid #ff00008a;
   }
 
   .main-content {
     width: 84%;
     margin-left: 16%;
-    background-color: #1b1010;
+    background-color: #1b1b1b;
     min-height: 100vh;
     background-image: url(../img/dots.svg);
     display: grid;
