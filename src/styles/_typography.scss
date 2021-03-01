@@ -26,9 +26,25 @@
 
   .icon-holder {
     margin-right: 1rem;
+
     .icon {
       font-size: 2.8rem;
       color: #c4a4a4;
+      transition: all .4s ease-in-out;
+    }
+
+    .fb:hover {
+      color: #3b5998;
+    }
+
+    .ig:hover {
+      color: #c13584;
+    }
+    .gh:hover {
+      color: #bd2c00;
+    }
+    .in:hover {
+      color: #00a0dc;
     }
   }
 }

@@ -20,7 +20,7 @@ function Home() {
             <FontAwesomeIcon icon={faFacebook} className="icon fb" />
           </Link>
           <Link className="icon-holder">
-            <FontAwesomeIcon icon={faInstagram} className="icon in" />
+            <FontAwesomeIcon icon={faInstagram} className="icon ig" />
           </Link>
           <Link className="icon-holder">
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
