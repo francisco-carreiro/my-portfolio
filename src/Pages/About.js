@@ -2,10 +2,10 @@ import React from "react";
 import Title from "../Components/Title";
 import ImageSection from "../Components/ImageSection";
 import SkillSection from "../Components/SkillSection";
-import ServicesSection from "../Components/ServicesSection";
-import design from "../img/design.svg";
-import intelligence from "../img/intelligence.svg";
-import gamedev from "../img/game-dev.svg";
+import HobbiesSection from "../Components/HobbiesSection";
+import draw from "../img/draw.gif";
+import music from "../img/music.gif";
+import game from "../img/game.gif";
 
 function About() {
   return (
@@ -20,24 +20,28 @@ function About() {
         <SkillSection skill={"Java"} progress={"75%"} width={"75%"} />
         <SkillSection skill={"Python"} progress={"25%"} width={"25%"} />
       </div>
-      <Title title={"Services"} span={"Services"} />
-      <div className="services-container">
-        <ServicesSection
-          image={design}
-          title={"Web design"}
+      <Title title={"Hobbies"} span={"Hobbies"} />
+      <div className="hobbies-container">
+        <HobbiesSection
+          image={draw}
+          title={"Draw"}
           text={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis gravida lacus, eu facilisis libero. Cras ipsum metus, eleifend id elit a, bibendum tincidunt magna."
+            "Since I was a kid, I really enjoyed grabbing a pencil or a pen to express my imagination into a piece of paper, nowadays its a really good way to plan what I might want to do on projects."
           }
         />
-        <ServicesSection
-          image={intelligence}
-          title={"AI"}
-          text={"i do AI for a living!"}
+        <HobbiesSection
+          image={music}
+          title={"Play Guitar"}
+          text={
+            "When I was around 15/16 years old I got my first guitar little did I know that my guitar hero's passion was gonna become a hell of a hobby, I learned alone how to play it so it was kinda hard."
+          }
         />
-        <ServicesSection
-          image={gamedev}
-          title={"Game Dev"}
-          text={"i do Game Dev for a living!"}
+        <HobbiesSection
+          image={game}
+          title={"Play Games"}
+          text={
+            "It all started with the Sega Genesis and the good old Nintendo, and my joy in gaming never stopped, I really enjoy playing all kinds of video games with my friend and have loads of fun laughing a lot with them."
+          }
         />
       </div>
     </div>

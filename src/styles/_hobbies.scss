@@ -1,5 +1,5 @@
-.ServicesSection {
-  .service {
+.HobbiesSection {
+  .hobbies {
     width: 95%;
     background-color: #111111;
     border-left: 1px solid #ff000049;
@@ -12,10 +12,10 @@
       border-top: 8px solid red;
     }
 
-    .service-content {
+    .hobbies-content {
       padding: 1rem;
 
-      .s-title {
+      .h-title {
         font-size: 1.6rem;
         font-weight: 500;
         position: relative;
@@ -31,11 +31,16 @@
           background-color: #ff000049;
         }
       }
+
+      .h-image {
+        max-width: 300px;
+        max-height: 300px;
+      }
     }
   }
 }
 
-.service-container {
+.hobbies-container {
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;

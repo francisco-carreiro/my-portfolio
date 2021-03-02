@@ -11,10 +11,10 @@ function Home() {
     <div className="HomePage">
       <header className="hero">
         <h1 className="hero-text">
-          Hi, I am
+          Hello, I'm
           <span> Francisco.</span>
         </h1>
-        <p className="h-sub-text">Info about myself.............</p>
+        <p className="h-sub-text">Welcome to my portfolio!</p>
         <div className="icons">
           <Link className="icon-holder">
             <FontAwesomeIcon icon={faFacebook} className="icon fb" />
