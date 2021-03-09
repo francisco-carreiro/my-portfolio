@@ -14,18 +14,18 @@ function Contacts() {
       </div>
       <div className="ContactPage">
         <div className="contact-sect">
-          <ContactItem icon={phone} text1={"+351 924129477"} title={"Phone"} />
+          <ContactItem icon={phone} text1={"+351 924129477"} title={"Phone:"} />
           <ContactItem
             icon={email}
-            text1={"franciscomcarreiro@hmail.com"}
-            title={"Email"}
+            text1={"franciscomcarreiro@gmail.com"}
+            title={"Email:"}
           />
           <ContactItem
             icon={location}
             text1={
               "If really needed ask me for my address for security reasons it wont be displayed."
             }
-            title={"Address"}
+            title={"Address:"}
           />
           <div className="map-sect">
             <iframe
