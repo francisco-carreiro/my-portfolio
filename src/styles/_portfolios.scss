@@ -1,0 +1,26 @@
+.ProjectsPage {
+}
+
+.portfolis {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  .portfolio {
+    .image-data {
+      img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+      }
+    }
+    .hover-items {
+      list-style: none;
+    }
+    h5 {
+      font-size: 1.7rem;
+      font-weight: 400;
+      color: white;
+    }
+  }
+}
