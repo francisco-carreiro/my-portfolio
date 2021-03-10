@@ -2,7 +2,7 @@ import "./App.scss";
 import NavBar from "./Components/NavBar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Projects from "./Pages/Projects";
+import Projects from "./Pages/PortfoliosPage";
 import Contact from "./Pages/Contacts";
 import { Switch, Route } from "react-router-dom";
 
