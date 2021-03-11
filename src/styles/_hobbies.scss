@@ -8,6 +8,11 @@
     border-top: 8px solid #ff000049;
     transition: all 0.4s ease-in-out;
 
+    @media screen and (max-width:1400px){
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+
     &:hover {
       border-top: 8px solid red;
     }
@@ -44,4 +49,9 @@
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;
+
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
 }
