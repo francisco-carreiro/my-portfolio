@@ -37,7 +37,14 @@ function ImageSection() {
             <p>: Ponta Delgada (Azores)</p>
           </div>
         </div>
-        <button className="btn">Download my CV</button>
+        <a
+          href="https://www.dropbox.com/s/1l1q7kbew71ncks/cv_franciscoMcarreiro.pdf?dl=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          <button className="btn">Download my CV</button>
+        </a>
       </div>
     </div>
   );
