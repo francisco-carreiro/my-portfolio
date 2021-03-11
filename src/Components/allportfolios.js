@@ -3,65 +3,49 @@ import port2 from "../img/portImages/port2.jpg";
 import port3 from "../img/portImages/port3.jpg";
 import port4 from "../img/portImages/port4.jpg";
 import port5 from "../img/portImages/port5.jpg";
-import port6 from "../img/portImages/port6.jpg";
-import port7 from "../img/portImages/port7.jpg";
 
 const portfolios = [
   {
     id: 1,
-    category: "Design",
-    link: "www.github.com",
+    category: "Game",
+    link: "https://github.com/claudialexpinto/mcsinvaders",
     icon: "GitHub",
     image: port1,
-    title: "Autodesk Maya",
+    title: "MC Invaders",
   },
   {
     id: 2,
-    category: "Design",
-    link: "www.github.com",
+    category: "Game",
+    link: "https://github.com/francisco-carreiro/Escape-prison-game",
     icon: "GitHub",
     image: port2,
-    title: "Python Web Scrapping",
+    title: "Escape Prison",
   },
   {
     id: 3,
-    category: "Design",
-    link: "www.github.com",
+    category: "Web App",
+    link: "https://github.com/rubenrocha98/quarentinos",
     icon: "GitHub",
     image: port3,
-    title: "Autodesk Maya",
+    title: "SurpEX",
   },
   {
     id: 4,
     category: "Design",
-    link: "www.github.com",
-    icon: "GitHub",
+    link:
+      "https://www.deviantart.com/demipsycho/art/Graphic-Design-works-872943636",
+    icon: "DeviantART",
     image: port4,
-    title: "Vanilla Javascript Website",
+    title: "Açoriano Oriental Advertising",
   },
   {
     id: 5,
     category: "Design",
-    link: "www.github.com",
-    icon: "GitHub",
+    link:
+      "http://cro.cm-pontadelgada.pt/site/frontoffice/default.aspx?module=news/news&id=96306",
+    icon: "CM PDL",
     image: port5,
-    title: "Getting Started With React",
-  },
-  {
-    id: 6,
-    category: "Programming",
-    link: "www.github.com",
-    icon: "GitHub",
-    image: port6,
-    title: "Vanilla Javascript Website",
-  },
-  {
-    id: 7,
-    category: "Programming",
-    link: "www.github.com",
-    icon: "GitHub",
-    image: port7,
-    title: "Vanilla Javascript Website",
+    title: "Selo Centenário de todas as Mudanças",
   },
 ];
 

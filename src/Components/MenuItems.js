@@ -10,12 +10,13 @@ function MenuItems({ menuItem }) {
               <img src={item.image} alt="" />
               <ul className="hover-items">
                 <li>
-                  <a href={item.link}>{item.icon}</a>
+                  <a href={item.link} target="_blank" rel="noreferrer noopener">
+                    {item.icon}
+                  </a>
                 </li>
               </ul>
             </div>
             <h5>{item.title}</h5>
-            <p>Placeholder paragraph</p>
           </div>
         );
       })}
