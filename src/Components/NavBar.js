@@ -11,22 +11,22 @@ function NavBar() {
         </div>
         <ul className="nav-items">
           <li className="nav-item">
-            <NavLink to="/my-portfolio/" exact activeClassName="active">
+            <NavLink to="/" exact activeClassName="active">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/my-portfolio/about" exact activeClassName="active">
+            <NavLink to="/about" exact activeClassName="active">
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/my-portfolio/projects" exact activeClassName="active">
+            <NavLink to="/projects" exact activeClassName="active">
               Projects
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/my-portfolio/contact" exact activeClassName="active">
+            <NavLink to="/contact" exact activeClassName="active">
               Contact
             </NavLink>
           </li>
