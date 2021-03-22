@@ -11,7 +11,7 @@ function NavBar() {
         </div>
         <ul className="nav-items">
           <li className="nav-item">
-            <NavLink to="/" exact activeClassName="active">
+            <NavLink to="my-portfolio/" exact activeClassName="active">
               Home
             </NavLink>
           </li>
