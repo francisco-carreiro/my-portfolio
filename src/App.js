@@ -27,10 +27,8 @@ function App() {
       <div className="main-content">
         <div className="content">
           <Switch>
-          <Route  path="my-portfolio/" exact>
-              <Home />
-            </Route>
-            <Route  path="/" exact>
+            <Route path="my-portfolio/" exact></Route>
+            <Route path="/" exact>
               <Home />
             </Route>
             <Route path="/about" exact>
