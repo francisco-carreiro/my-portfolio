@@ -27,8 +27,7 @@ function App() {
       <div className="main-content">
         <div className="content">
           <Switch>
-            <Redirect exact from="/" to="/home" />
-            <Route path="/home" exact>
+            <Route path="/" exact>
               <Home />
             </Route>
             <Route path="/about" exact>
