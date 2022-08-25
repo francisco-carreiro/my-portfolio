@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 import "./App.scss";
 import NavBar from "./Components/NavBar";
 import About from "./Pages/About";
@@ -27,16 +27,17 @@ function App() {
       <div className="main-content">
         <div className="content">
           <Switch>
-            <Route path="/" exact>
+            <Redirect exact from="/my-portfolio" to="/home" />
+            <Route path="/home" exact>
               <Home />
             </Route>
-            <Route path="/about" exact>
+            <Route path="/about">
               <About />
             </Route>
-            <Route path="/projects" exact>
+            <Route path="/projects">
               <Projects />
             </Route>
-            <Route path="/contact" exact>
+            <Route path="/contact">
               <Contact />
             </Route>
           </Switch>
