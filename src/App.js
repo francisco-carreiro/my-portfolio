@@ -1,11 +1,11 @@
+import { useState } from "react";
+import { Route, Switch } from "react-router-dom";
 import "./App.scss";
 import NavBar from "./Components/NavBar";
-import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Projects from "./Pages/PortfoliosPage";
 import Contact from "./Pages/Contacts";
-import { Switch, Route } from "react-router-dom";
-import { useState } from "react";
+import Home from "./Pages/Home";
+import Projects from "./Pages/PortfoliosPage";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -27,7 +27,8 @@ function App() {
       <div className="main-content">
         <div className="content">
           <Switch>
-            <Route path="/" exact>
+            <Redirect exact from="/" to="/home" />
+            <Route path="/home" exact>
               <Home />
             </Route>
             <Route path="/about" exact>
