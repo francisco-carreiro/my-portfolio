@@ -27,7 +27,7 @@ function App() {
       <div className="main-content">
         <div className="content">
           <Switch>
-            <Redirect exact from="/my-portfolio" to="/home" />
+            <Redirect exact from="/my-portfolio/" to="/home" />
             <Route path="/home" exact>
               <Home />
             </Route>
