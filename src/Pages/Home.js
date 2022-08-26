@@ -1,14 +1,17 @@
-import {
-  faFacebook,
-  faGithub,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 
 function Home() {
+  const handleClickGh = () => {
+    window.open("https://github.com/francisco-carreiro");
+  };
+
+  const handleClickLi = () => {
+    window.open("https://www.linkedin.com/in/francisco-carreiro/");
+  };
+
   return (
     <div className="HomePage">
       <header className="hero">
@@ -19,36 +22,20 @@ function Home() {
         <div className="icons">
           <Link className="icon-holder">
             <a
-              rel="noopener noreferrer"
-              href="https://www.facebook.com/Psychooo1994/"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-            </a>{" "}
-          </Link>{" "}
-          <Link className="icon-holder">
-            <a
-              rel="noopener noreferrer"
-              href="https://www.instagram.com/the_mr.psycho/"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faInstagram} className="icon ig" />
-            </a>{" "}
-          </Link>{" "}
-          <Link className="icon-holder">
-            <a
-              rel="noopener noreferrer"
+              onClick={handleClickGh}
               href="https://github.com/francisco-carreiro"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <FontAwesomeIcon icon={faGithub} className="icon gh" />
             </a>{" "}
           </Link>{" "}
           <Link className="icon-holder">
             <a
-              rel="noopener noreferrer"
+              onClick={handleClickLi}
               href="https://www.linkedin.com/in/francisco-carreiro/"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <FontAwesomeIcon icon={faLinkedin} className="icon in" />
             </a>{" "}
