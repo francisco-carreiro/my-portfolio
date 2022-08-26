@@ -10,7 +10,7 @@ function NavBar() {
           <img src={avatar} alt="" />
         </div>
         <ul className="nav-items">
-          <li className="nav-item">
+          <li className="nav-item ">
             <NavLink to="/home" exact activeClassName="active">
               Home
             </NavLink>
