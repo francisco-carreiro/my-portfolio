@@ -1,6 +1,6 @@
 ![Logo](https://i.ibb.co/j8B38cP/logo.png)
 
-# Portfolio v.1
+# Portfolio V.1
 
 I just wanted to have a good portfolio that is as easy as possible to share and show off what I've done.
 
